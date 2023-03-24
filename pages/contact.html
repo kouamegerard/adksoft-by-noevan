@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Création de site web sur Nice 06000">
+    <title>Site Web | ADKSoft</title>
+
+    <!-- CDN Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Link Google FF -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <!-- /Link Google FF -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./../assets/css/meyerweb-reset.css">
+    <link rel="stylesheet" href="./../assets/css/app.css">
+    <link rel="stylesheet" href="./../assets/css/geneses-customizer.css">
+
+</head>
+<body>
+
+    <header class="adksoft-header-menu xxl:flex xl:flex lg:flex md:flex sm:hidden xs:hidden xxl:width-3/4 xl:width-3/4 lg:width-full justify-between align-items-center margin-auto margin-auto relative">
+        <div class="absolute z-index-20 padding-6 width-full" style="left: 0; top: 0;">
+            <div class="flex justify-between align-items-center relative">
+
+                <div class="adksoft-header-logo">
+                    <a href="./../index.html">
+                        <img class="adksoft-logo width-32" src="./../assets/images/logo.png" alt="Logo de l'entreprise">
+                    </a>
+                </div>
+                <nav class="flex justify-between">
+                    <ul class="adksoft-navbar-items width-full flex gap-10">
+                        <li class="adksoft-navbar-item relative"><a href="./../index.html" class="capitalize font-weight-medium padding-y-2 white-color">accueil</a></li>
+                        <li class="adksoft-navbar-item relative"><a href="./site-web.html" class="capitalize font-weight-medium padding-y-2 white-color">sites web</a></li>
+                        <li class="adksoft-navbar-item relative"><a href="./app.html" class="capitalize font-weight-medium padding-y-2 white-color">application</a></li>
+                        <li class="adksoft-navbar-item relative"><a href="./design.html" class="capitalize font-weight-medium padding-y-2 white-color">design</a></li>
+                    </ul>
+                </nav>
+        
+                <a class="header-action block bg-main-color white-color padding-x-4 padding-y-2 border-radius actived-item" href="./contact.html">Contact <img src="./../assets/images/agitant-la-main.png" class="width-4"></a>
+                
+            </div>
+        </div>
+        <!-- /header-action -->
+    </header>
+    <!-- /header -->
+
+    <!-- mobile nav -->
+    <nav class="mobile-nav xxl:hidden xl:hidden lg:hidden md:hidden sm:flex sm:justify-between xs:flex xs:justify-between xxl:padding-x-6 xl:padding-x-6 lg:padding-x-6 md:padding-x-6 sm:padding-x-6 xs:padding-x-2 border-bottom-width border-color-slate-200 border-bottom-style-solid">
+        <div class="mobile-nav-logo flex justify-between align-items-center width-full">
+            <a href="./../index.html"> <img class="adksoft-logo width-32" src="./../assets/images/logo.png" alt="Logo de l'entreprise"></a>
+            <span id="mobile-hamburger" class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 6l16 0"></path>
+                    <path d="M4 12l16 0"></path>
+                    <path d="M4 18l16 0"></path>
+                </svg>
+
+            </span>
+
+            <div id="mobile-menu-drawer" class="hidden width-full fixed height-full z-index-30 bg-dark left-0 top-0 bottom-0 bg-dark-opacity-7">
+                
+                <button id="close-drawer-nav" class="absolute right-16 top-34 bg-transparent outline-none border-none white-color">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-rounded-x" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10l4 4m0 -4l-4 4"></path>
+                        <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"></path>
+                    </svg>
+                </button>
+
+                <div class="sm bg-white width-2/3 height-full padding-x-8 padding-y-12">
+                    <ul class="adksoft-navbar-items padding-top-20">
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="./../" class="capitalize font-weight-medium font-size-xl">accueil</a></li>
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="./site-web.html" class="capitalize font-weight-medium font-size-xl">sites web</a></li>
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="./app.html" class="capitalize font-weight-medium font-size-xl">application</a></li>
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="./design.html" class="capitalize font-weight-medium font-size-xl">design</a></li>
+                    </ul>
+        
+                    <a class="header-action block bg-main-color white-color padding-x-4 padding-y-2 border-radius" href="./contact.html">Contact <img src="./../assets/images/agitant-la-main.png" class="width-4"></a>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </nav>
+    <!-- /mobile nav -->
+
+    <main class="relative">
+    
+        <!-- /mini-banner -->
+        <div class="width-full relative padding-6 padding-y-20" style="background-image: url('./../assets/images/hero.jpeg'); background-position: bottom; background-repeat: no-repeat; background-size: cover; height: 50vh;">
+            <div class="adksoft-mini-banner width-3/4 margin-auto flex align-items-center height-full">
+                <h1 class="mini-banner-title animate__animated animate__backInLeft z-index-20 relative white-color xs:font-size-3xl">Contact</h1>
+            </div>
+            <div class="absolute z-index-10 bg-secondary-color width-full height-full" style="left: 0; top: 0; opacity: .8;"></div>
+        </div>
+        <!-- /image-column -->
+
+        <div id="contact" class="xxl:width-3/4 xl:width-width-3/4 lg:width-width-3/4 md:width-full sm:width-full xs:width-full padding-6 margin-auto">
+            <div class="block">
+                <form class="flex flex-wrap flex-direction-column gap-4 align-items-center justify-start xxl:width-2/3 xl:width-2/3 lg:width-2/3 md:width-full sm:width-full xs:width-full margin-auto" id="contact-form">
+                    <div class="form-group flex flex-wrap gap-3 xxl:width-2/3 xl:width-2/3 lg:width-2/3 md:width-full sm:width-full xs:width-full">
+                        <div class="input-control-group xxl:width-1/2 xl:width-1/2 lg:width-48% md:width-full sm:width-full xs:width-full">
+                            <label for="name" class="">Nom</label>
+                            <input type="text" class="form-control block margin-top-2 width-full padding-x-4 padding-y-2" name="name" id="name" placeholder="Nom">
+                        </div>
+                        <div class="input-control-group xxl:width-1/2 xl:width-1/2 lg:width-48% md:width-full sm:width-full xs:width-full">
+                            <label for="prenom">Prénom(s)</label>
+                            <input type="text" class="form-control block margin-top-2 width-full padding-x-4 padding-y-2" name="prenom" id="prenom" placeholder="Prénom(s)">
+                        </div>
+                    </div>
+                    <div class="form-group flex flex-wrap gap-3 xxl:width-2/3 xl:width-2/3 lg:width-2/3 md:width-full sm:width-full xs:width-full">
+                        <div class="input-control-group xxl:width-1/2 xl:width-1/2 lg:width-48% md:width-full sm:width-full xs:width-full">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control block margin-top-2 width-full padding-x-4 padding-y-2" name="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="input-control-group xxl:width-1/2 xl:width-1/2 lg:width-48% md:width-full sm:width-full xs:width-full">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" class="form-control block margin-top-2 width-full padding-x-4 padding-y-2" name="phone" id="phone" placeholder="Téléphone">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group flex xxl:width-2/3 xl:width-2/3 lg:width-2/3 md:width-full sm:width-full xs:width-full">
+                        <div class="input-control-group width-full">
+                            <label for="message">Message</label>
+                            <textarea type="email" class="form-control block margin-top-2 width-full padding-2" rows="6" name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group flex xxl:width-2/3 xl:width-2/3 lg:width-2/3 md:width-full sm:width-full xs:width-full">
+                        <div class="input-control-group width-full">
+                            <button role="button" class="color customizer-btn outline-none border-none white-color padding-x-12 padding-y-4 border-radius-sm block margin-top-2" id="send">Envoyer</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <!-- /service-items -->
+        </div>
+        <!-- /service -->
+        
+        <div class="newsletter width-3/4 margin-auto flex justify-between align-items-center gap-18 padding-x-6 padding-y-36">
+            <div class="newsletter-heading">
+                <h2 class="capitalize font-size-4xl margin-bottom-2">newsletter</h2>
+                <p class="font-size-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati numquam vero doloribus ducimus dolorum</p>
+            </div>
+            <form class="flex justify-start width-full gap-4" id="contact-form">
+                <input type="email" name="email" placeholder="Email" class="width-1/2 padding-y-2 padding-x-3 border-radius border-width border-color-current outline-none border-style-solid">
+                <button class="capitalize padding-x-8 outline-none border-none bg-main-color border-radius white-color">send</button>
+            </form>
+        </div>
+        <!-- /newsletter -->
+
+        <footer class="width-full padding-x-6 padding-y-8 bg-dark">
+            
+            <div class="footer-legacy width-3/4 flex align-items-center gap-20"></div>
+            <div class="footer-copyright width-3/4 margin-auto flex justify-between align-items-center gap-20">
+                <p class="copyright white-color font-size-sm">&copy; 2023 ADKSoft, All right reserved</p>
+                <p class="design-by white-color font-size-sm">by <a href="https://fam-digitale.com" class="white-color">Fam Digitale</a></p>
+                <p class="policies white-color flex justify-between align-items-center gap-7 font-size-sm">
+                    <a href="https://adksoft.fr/policies" class="white-color">Terms of Service</a>
+                    <a href="https://adksoft.fr/cookies-legacy" class="white-color">Cookies Legacy</a>
+                    <a href="https://adksoft.fr/privacy-legacy" class="white-color">Privacy Legacy</a>
+                </p>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+    </main>
+    <!-- /main -->
+    
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("g7nbY7pfWj1T2HXf6");
+        })();
+    </script>
+    <script src="./../assets/js/app.js"></script>
+    <script src="./../assets/js/emailjs.js"></script>
+    <script>
+        let sender = document.querySelector("#send");
+        sender.addEventListener("click", (ev) => {
+            ev.preventDefault();
+            sender.classList.remove('customizer-btn');
+            sender.classList.add('secondary-color');
+            sender.setAttribute('disabled', true);
+            emailjs_sender();
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Création de site web sur Nice 06000">
+    <title>ADKSoft</title>
+
+    <!-- CDN Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Link Google FF -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <!-- /Link Google FF -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/meyerweb-reset.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+<body class="relative antialased">
+
+    <header class="adksoft-header-menu xxl:flex xl:flex lg:flex md:flex sm:hidden xs:hidden xxl:width-3/4 xl:width-3/4 lg:width-full justify-between align-items-center margin-auto relative">
+        <div class="absolute z-index-20 padding-6 width-full" style="left: 0; top: 0;">
+            <div class="flex justify-between align-items-center relative">
+
+                <div class="adksoft-header-logo">
+                    <a href="./index.html">
+                        <img class="adksoft-logo width-32" src="./assets/images/logo.png" alt="Logo de l'entreprise">
+                    </a>
+                </div>
+                <nav class="flex justify-between">
+                    <ul class="adksoft-navbar-items width-full flex gap-10">
+                        <li class="adksoft-navbar-item relative"><a href="./index.html" class="capitalize font-weight-medium actived-item padding-y-2 white-color">accueil</a></li>
+                        <li class="adksoft-navbar-item relative"><a href="./pages/site-web.html" class="capitalize font-weight-medium padding-y-2 white-color">sites web</a></li>
+                        <li class="adksoft-navbar-item relative"><a href="./pages/app.html" class="capitalize font-weight-medium padding-y-2 white-color">application</a></li>
+                        <li class="adksoft-navbar-item relative"><a href="./pages/design.html" class="capitalize font-weight-medium padding-y-2 white-color">design</a></li>
+                    </ul>
+                </nav>
+        
+                <a class="header-action block bg-main-color white-color padding-x-4 padding-y-2 border-radius" href="./../contact.html">Contact <img src="./assets/images/agitant-la-main.png" class="width-4"></a>
+                
+            </div>
+        </div>
+        <!-- /header-action -->
+    </header>
+    <!-- /header -->
+
+    <!-- mobile nav -->
+    <nav class="mobile-nav xxl:hidden xl:hidden lg:hidden md:hidden sm:flex sm:justify-between xs:flex xs:justify-between xxl:padding-x-6 xl:padding-x-6 lg:padding-x-6 md:padding-x-6 sm:padding-x-6 xs:padding-x-2 border-bottom-width border-color-slate-200 border-bottom-style-solid">
+        <div class="mobile-nav-logo flex justify-between align-items-center width-full">
+            <a href="./index.html"> <img class="adksoft-logo width-32" src="assets/images/logo.png" alt="Logo de l'entreprise"></a>
+            <span id="mobile-hamburger" class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 6l16 0"></path>
+                    <path d="M4 12l16 0"></path>
+                    <path d="M4 18l16 0"></path>
+                </svg>
+
+            </span>
+
+            <div id="mobile-menu-drawer" class="hidden width-full fixed height-full z-index-30 bg-dark left-0 top-0 bottom-0 bg-dark-opacity-7">
+                
+                <button id="close-drawer-nav" class="absolute right-16 top-34 bg-transparent outline-none border-none white-color">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-rounded-x" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10l4 4m0 -4l-4 4"></path>
+                        <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"></path>
+                    </svg>
+                </button>
+
+                <div class="sm bg-white width-2/3 height-full padding-x-8 padding-y-12">
+                    <ul class="adksoft-navbar-items padding-top-20">
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="/" class="capitalize font-weight-medium actived-item font-size-xl">accueil</a></li>
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="./pages/site-web.html" class="capitalize font-weight-medium font-size-xl">sites web</a></li>
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="./pages/app.html" class="capitalize font-weight-medium font-size-xl">application</a></li>
+                        <li class="adksoft-navbar-item relative margin-y-4"><a href="./pages/design.html" class="capitalize font-weight-medium font-size-xl">design</a></li>
+                    </ul>
+        
+                    <a class="header-action block bg-main-color white-color padding-x-4 padding-y-2 border-radius" href="./pages/contact.html">Contact <img src="assets/images/agitant-la-main.png" class="width-4"></a>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </nav>
+
+    <main>
+        <!-- /mini-banner -->
+        <div class="flex width-full relative xxl:padding-x-6 xl:padding-x-6 lg:padding-x-6 md:padding-x-6 sm:padding-x-6 xs:padding-x-2 padding-y-20 xxl:height-vh-90 xl:height-vh- lg:height-vh-50 md:height-vh-50" style="background-image: url('./../assets/images/hero.jpeg'); background-position: bottom; background-repeat: no-repeat; background-size: cover;">
+            <div class="adksoft-mini-banner width-3/4 margin-auto">
+                <h1 class="mini-banner-title animate__animated animate__backInLeft white-color relative z-index-20 xs:font-size-3xl">Adksoft, votre agence web <br>à votre écoute</h1>
+            </div>
+            <div class="absolute z-index-10 bg-secondary-color width-full height-full left-0 top-0 opacity-8"></div>
+        </div>
+        <!-- /image-column -->
+
+        <div id="services" class="xxl:width-3/4 xl:width-3/4 lg:width-full padding-6 margin-auto">
+            <div class="xxl:flex xl:flex lg:flex md:flex gap-4 margin-y-14 align-items-center">
+                <h2 class="font-size-4xl font-weight-semibold">We are the best choice for your</h2>
+                <div class="xs:margin-top-6">
+                    <h2 class="font-size-4xl font-weight-semibold main-color">Digital Marketing</h2>
+                    <h2 class="hidden font-size-4xl font-weight-semibold main-color">SITE WEB</h2>
+                    <h2 class="hidden font-size-4xl font-weight-semibold main-color">APPLICATION MOBILE</h2>
+                    <h2 class="hidden font-size-4xl font-weight-semibold main-color">DESIGN</h2>
+                </div>
+                <b>.</b>
+            </div>
+
+            <div class="xxl:flex xl:flex lg:flex md:flex xs:block justify-between align-items-center xxl:gap-16 xl:gap-16 lg:gap-16 md:gap-4 ">
+                <div class="service flex flex-direction-column gap-2 xs:margin-top-10">
+                    <img src="assets/images/icon1.PNG" alt="" class="width-8">
+                    <h4 class="font-size-lg font-weight-semibold margin-bottom-2">Earning traffic</h4>
+                    <p class="font-size-normal font-weight-normal margin-bottom-3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem necessitatibus ea blanditiis
+                        nesciunt, veritatis at nemo fugit laboriosam, architecto perferendis, repudiandae doloribus
+                        obcaecati porro nostrum excepturi modi ex alias iste.</p>
+                    <a href="#" class="block main-color width-40 border-radius font-size-lg underline">Learn more</a>
+                </div>
+                <div class="service flex flex-direction-column gap-2 xs:margin-top-10">
+                    <img src="assets/images/icon2.PNG" alt="" class="width-8">
+                    <h4 class="font-size-lg font-weight-semibold margin-bottom-2">Design that dazzles</h4>
+                    <p class="font-size-normal font-weight-normal margin-bottom-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem necessitatibus ea blanditiis
+                        nesciunt, veritatis at nemo fugit laboriosam, architecto perferendis, repudiandae doloribus
+                        obcaecati porro nostrum excepturi modi ex alias iste.</p>
+                    <a href="#" class="block main-color width-40 border-radius font-size-lg underline">Learn more</a>
+                </div>
+                <div class="service flex flex-direction-column gap-2 xs:margin-top-10">
+                    <img src="assets/images/icon3.PNG" alt="" class="width-8">
+                    <h4 class="font-size-lg font-weight-semibold margin-bottom-2">Expand your social reach</h4>
+                    <p class="font-size-normal font-weight-normal margin-bottom-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem necessitatibus ea blanditiis
+                        nesciunt, veritatis at nemo fugit laboriosam, architecto perferendis, repudiandae doloribus
+                        obcaecati porro nostrum excepturi modi ex alias iste.</p>
+                    <a href="#" class="block main-color width-40 border-radius font-size-lg underline">Learn more</a>
+                </div>
+            </div>
+            <!-- /service-items -->
+            
+        </div>
+        <!-- /service -->
+
+        <div id="brands" class="xxl:width-3/4 xl:width-3/4 lg:width-4/5 md:width-11/12 sm:width-11/12 xs:width-11/12 gap-3 padding-x-6 padding-y-20 margin-auto">
+            <div class="xxl:flex xl:flex lg:flex md:flex xs:block justify-between gap-4 margin-y-20 align-items-center">
+                <div class="xxl:width-3/4 xl:width-3/4 xs:width-full">
+                    <div class="flex align-items-center">
+                        <h2 class="font-size-9xl font-weight-semibold">700</h2> <span class="font-size-9xl font-weight-semibold">+</span>
+                    </div>
+                    <h3 class="font-size-3xl font-weight-medium">Brands already onboard</h3>
+                </div>
+                <div id="brands-onboarding" class="bg-slate-50 xxl:width-1/4 xl:width-1/4 lg:width-2/5 flex flex-wrap align-items-center justify-between gap-6 padding-2 xs:margin-top-8">
+                    <img src="./assets/images/canva-favicon.webp" alt="Canva Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Wave Apps Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Stripe Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/canva-favicon.webp" alt="Canva Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Wave Apps Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Stripe Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/canva-favicon.webp" alt="Canva Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/canva-favicon.webp" alt="Wave Apps Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Stripe Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/canva-favicon.webp" alt="Canva Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/canva-favicon.webp" alt="Wave Apps Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Stripe Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/canva-favicon.webp" alt="Canva Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Wave Apps Favicon" class="width-12 height-12 border-radius-full">
+                    <img src="./assets/images/stripe-favicon.png" alt="Stripe Favicon" class="width-12 height-12 border-radius-full">
+                </div>
+            </div>            
+        </div>
+        <!-- /brands -->
+
+        <div id="about-us" class="width-full bg-slate-200 padding-x-6 padding-y-20">
+            <div class="xxl:flex xl:flex lg:flex md:flex xs:block justify-between xl:gap-18 lg:gap-18 md:gap-4 align-items-center xxl:width-3/4 xl:width-3/4 lg:width-11/12 md:width-11/12 margin-auto xs:padding-6">
+                <div class="about-us-team xxl:width-1/2 xl:width-1/2 lg:width-/2 md:width-1/2 sm:width-full xs:width-full height-120">
+                    <img class="team width-full border-radius-2xl object-fit-cover height-full" src="./assets/images/team-work-image.jpeg">
+                </div>
+                <div class="about-us-description flex flex-direction-column gap-4 justify-center xs:margin-top-10">
+                    <h2 class="font-size-4xl font-weight-semibold margin-bottom-8">How ADKSoft creates<br> growth business</h2>
+                    <div class="flex align-items-center gap-2">
+                        <img class="sendimg width-6" src="./assets/images/check.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="flex align-items-center gap-2">
+                        <img class="sendimg width-6" src="./assets/images/check.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="flex align-items-center gap-2">
+                        <img class="sendimg width-6" src="./assets/images/check.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="flex align-items-center gap-2">
+                        <img class="sendimg width-6" src="./assets/images/check.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <a href="#" class="block margin-y-4 padding-y-4 padding-x-12 text-center bg-main-color white-color xl:width-2/3 xs:width-full border-radius">Demander un devis <img src="assets/images/papier.png" class="width-4"></a>
+                </div>
+            </div>
+        </div>
+        <!-- /about -->
+
+        <div class="newsletter xxl:width-3/4 xl:width-3/4 lg:width-4/5 md:width-11/12 margin-auto xxl:flex xl:flex lg:flex md:flex xs:block xs:padding-6 justify-between align-items-center xl:gap-18 md\:gap-4 md:gap-3 padding-x-6 padding-y-36">
+            <div class="newsletter-heading">
+                <h2 class="capitalize font-size-4xl margin-bottom-2">newsletter</h2>
+                <p class="font-size-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati numquam vero doloribus ducimus dolorum</p>
+            </div>
+            <form class="flex justify-start width-full gap-4 md\:gap-2 xs:flex-direction-column xs:margin-top-10">
+                <input type="email" name="email" placeholder="Email" class="xl:width-3/4 xs:width-full padding-y-2 padding-x-3 border-radius border-width border-color-current outline-none border-style-solid">
+                <button class="capitalize padding-x-8 padding-y-4 outline-none border-none bg-main-color border-radius white-color">send</button>
+            </form>
+        </div>
+        <!-- /newsletter -->
+
+        <footer class="width-full padding-x-6 padding-y-8 bg-dark">
+            
+            <div class="footer-legacy xxl:width-3/4 xl:width-3/4 lg:width-4/5 flex align-items-center gap-20"></div>
+            <div class="footer-copyright xxl:width-3/4 xl:width-3/4 lg:width-4/5 md:width-4/5 margin-auto xxl:flex xl:flex lg:flex md:flex sm:flex xs:flex xl:justify-between md:justify-center sm:justify-center xs:justify-center align-items-center flex-wrap row-gap-4">
+                <p class="copyright white-color font-size-sm xl:order-1 lg:order-1 md:order-3 xxl:width-1/4 xl:width-1/4 lg:width-1/3 md:width-full sm:width-full xs:width-full md:text-center sm:text-center xs:text-center xs:order-3">&copy; 2023 ADKSoft, All right reserved</p>
+                <p class="design-by white-color font-size-sm xl:order-2 lg:order-2 md:order-2 xxl:width-1/4 xl:width-1/4 lg:width-1/6 md:width-full sm:width-full xs:width-full md:text-center sm:text-center xs:text-center xs:order-2">by <a href="https://fam-digitale.com" class="white-color">Fam Digitale</a></p>
+                <p class="policies white-color xxl:flex xl:flex md:flex xl:order-3 lg:order-3 md:order-1 sm:order-1 xs:order-1 lg:width-1/2 xxl:justify-end xl:justify-end lg:justify-end md:justify-center align-items-center gap-7 font-size-sm xxl:width-1/2 xl:width-full md:width-full sm:width-full xs:width-full md:text-center sm:text-center xs:text-center">
+                    <a href="https://adksoft.fr/policies" class="white-color md:block">Terms of Service</a>
+                    <a href="https://adksoft.fr/cookies-legacy" class="white-color md:block">Cookies Legacy</a>
+                    <a href="https://adksoft.fr/privacy-legacy" class="white-color md:block">Privacy Legacy</a>
+                </p>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+    </main>
+    <!-- /main -->
+    
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
