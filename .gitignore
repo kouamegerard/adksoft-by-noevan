@@ -1,2 +1,7 @@
 # Own MachineMac generator dot-extension
 .DS_Store
+.htaccess
+# Ignore file
+adksoft.zip
+
+./scss

@@ -1,12 +1,10 @@
-function emailjs_sender() {
-    const YOUR_SERVICE_ID = "service_is5q9br";
-    const YOUR_TEMPLATE_ID = "template_snjul5o";
+function emailjs_sender(serviceid, templateid, btn_id) {
+    // const YOUR_SERVICE_ID = "service_is5q9br";
+    // const YOUR_TEMPLATE_ID = "template_snjul5o";
+    const YOUR_SERVICE_ID = serviceid;
+    const YOUR_TEMPLATE_ID = templateid;
+    const BUTTON_ID = btn_id;
 
-    var templateParams = {
-        name: 'James',
-        notes: 'Check this out!'
-    };
-    
     // emailjs.send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, templateParams)
     //     .then(function(response) {
     //     console.log('SUCCESS!', response.status, response.text);
@@ -23,20 +21,20 @@ function emailjs_sender() {
             document.querySelector("#phone").value = "";
             document.querySelector("#message").value = "";
             
-            sender.classList.remove('secondary-color');
-            sender.classList.add('customizer-btn');
-            sender.removeAttribute('disabled');
+            BUTTON_ID.classList.remove('secondary-color');
+            BUTTON_ID.classList.add('customizer-btn');
+            BUTTON_ID.removeAttribute('disabled');
 
             console.log('SUCCESS!', response);
 
             if (response.status === 200) {
                 
                 Swal.fire({
-                    title: 'Success!',
-                    text: 'Merci de nous avoir contacté,\nnous vous revenons le plus tôt possible',
+                    title: 'Envoyé!',
+                    text: 'Merci de nous avoir contacté, nous revenons vers vous dans les 48H !',
                     icon: 'success',
                     confirmButtonText: 'Fermer'
-                    })
+                })
                     
             } else {
                 
